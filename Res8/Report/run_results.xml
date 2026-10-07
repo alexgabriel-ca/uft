@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="User">
+<Data>
+    <Name>&lt;style&gt;.AI-transformation-step-name {color:blue; font-weight: bold;}body.theme-dark .AI-transformation-step-name {color:white}.AI-transformation-step-details {color:blue;}body.theme-dark .AI-transformation-step-details {color:white}.AI-transformation-to-name {color:blue;}body.theme-dark .AI-transformation-to-name {color:white}.AI-transformation-success {color:green}.AI-transformation-error {color:orange};&lt;/style&gt;&lt;b&gt;Overview&lt;/b&gt;</Name>
+    <Description>&lt;span class='AI-transformation-step-details'&gt;This report provides suggestions that you can use to transform technology-based test steps to AI-based testing steps.&lt;br&gt;The report suggests an AI object and operation for any step where a property-based test object can be replaced with an AI object.&lt;br&gt;&lt;br&gt;This report is located in C:\Users\demo\Documents\Functional Testing\AOS End to End\Res8.&lt;br&gt;&lt;br&gt;All screenshots are stored in C:\Users\demo\AppData\Local\Temp\1.&lt;br&gt;&lt;br&gt;We are constantly enhancing the AI model. To contribute to this endeavor, you can share this report to &lt;a href='mailto:FTAIDPP@microfocus.com'&gt;FTAIDPP@microfocus.com&lt;/a&gt;&lt;/span&gt;</Description>
+    <StartTime>2026-02-20 13:54:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>d9acada6e93a4c5380ce482821fa775f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<Data>
+    <Name>Login</Name>
+    <Description />
+    <StartTime>2026-02-20 13:54:35</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>799faa41cdaa4b2fa65ba5c695b760f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Speaker</Name>
+    <Description />
+    <StartTime>2026-02-20 13:54:35</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>799faa41cdaa4b2fa65ba5c695b760f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Tablet</Name>
+    <Description />
+    <StartTime>2026-02-20 13:54:36</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>799faa41cdaa4b2fa65ba5c695b760f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Laptop</Name>
+    <Description />
+    <StartTime>2026-02-20 13:54:36</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>799faa41cdaa4b2fa65ba5c695b760f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Mouse</Name>
+    <Description />
+    <StartTime>2026-02-20 13:54:36</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>799faa41cdaa4b2fa65ba5c695b760f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="User">
+<ReportNode type="Step">
+<Data>
+    <Name>fetchImage?image_id=2200</Name>
+    <Description>The&amp;nbsp;filename,&amp;nbsp;directory&amp;nbsp;name,&amp;nbsp;or&amp;nbsp;volume&amp;nbsp;label&amp;nbsp;syntax&amp;nbsp;is&amp;nbsp;incorrect.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = Image&lt;br&gt;Index = 1&lt;br&gt;Html Tag = IMG&lt;br&gt;_xpath = //DIV[2]/UL[1]/LI[1]/IMG[1]&lt;br&gt;|Visible = -1&lt;br&gt;Name = Image&lt;br&gt;Image Type = Plain Image&lt;br&gt;Html Id = 15&lt;br&gt;file name = fetchImage?image_id=2200&lt;br&gt;DHTML Class = imgProduct&lt;br&gt;Alt = &lt;br&gt;</Description>
+    <StartTime>2026-02-20 13:54:45</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[fetchImage?image_id=2200]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The&nbsp;filename,&nbsp;directory&nbsp;name,&nbsp;or&nbsp;volume&nbsp;label&nbsp;syntax&nbsp;is&nbsp;incorrect.<br/>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Plain Image]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[IMG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d118f3a1918846848a9027b330fff67c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\c10cfc04-885f-4b6a-8bd9-1f2d7de1a6b6.jpeg" highlight="280,838,223,165" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 1&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("HeadphonesCategoryTxt").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil.FindTextBlock("HEADPHONES").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-02-20 13:54:41</StartTime>
+    <Duration>9</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\dc801325-4652-4128-9f89-eee1ea9d27f4.bmp</StepCustomImagePath>
+      <IconKey>d9acada6e93a4c5380ce482821fa775f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 3&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("save_to_cart").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("button", "ADD TO CART").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-02-20 13:54:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\2da0003a-df40-49ef-92e0-b568b2e87379.bmp</StepCustomImagePath>
+      <IconKey>d9acada6e93a4c5380ce482821fa775f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 4&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("ShoppingCart").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("shopping_cart").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-02-20 13:54:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\a20920e0-2ea4-4430-a9c0-0ec39474bd44.bmp</StepCustomImagePath>
+      <IconKey>d9acada6e93a4c5380ce482821fa775f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 5&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("REMOVE").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil.FindText("REMOVE").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-02-20 13:54:59</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\3be744ab-f118-4376-a025-a9301deba303.bmp</StepCustomImagePath>
+      <IconKey>d9acada6e93a4c5380ce482821fa775f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 6&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("CONTINUE SHOPPING").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("button", "CONTINUE SHOPPING").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-02-20 13:55:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\81456dfa-9192-408a-aa29-e4e9c883fbc6.bmp</StepCustomImagePath>
+      <IconKey>d9acada6e93a4c5380ce482821fa775f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Headphones</Name>
+    <Description />
+    <StartTime>2026-02-20 13:54:36</StartTime>
+    <Duration>27</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>799faa41cdaa4b2fa65ba5c695b760f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Logout</Name>
+    <Description />
+    <StartTime>2026-02-20 13:55:03</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>799faa41cdaa4b2fa65ba5c695b760f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2026-02-20 13:54:34</StartTime>
+    <Duration>29</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>3fc8745dbe59474d85ecb9142f106d62</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Google Chrome</Name>
+        <Path>C:\Program Files\Google\Chrome\Application\chrome.exe</Path>
+        <Version>145.0</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>http://nimbusserver.aos.com:8000/#/</Info>
+          <Info />
+          <Info />
+          <Info />
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AOS End to End</Name>
+    <ToolName>OpenText Functional Testing</ToolName>
+    <ToolVersion>25.2</ToolVersion>
+    <ToolVersionStringLiteral>25.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2026-02-20 13:54:33</StartTime>
+    <Duration>30</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>036520110c2c4c0d84781ec4f7c01cfd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>13th Gen Intel(R) Core(TM) i7-13800H</CpuInfo>
+      <NumberOfCores>10</NumberOfCores>
+      <TotalMemory>16384</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2019 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res8</ResultName>
+    <RunStartTime>2026-02-20 13:54:33</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>OpenText Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>25.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>25.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

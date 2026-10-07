@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="User">
+<Data>
+    <Name>&lt;style&gt;.AI-transformation-step-name {color:blue; font-weight: bold;}body.theme-dark .AI-transformation-step-name {color:white}.AI-transformation-step-details {color:blue;}body.theme-dark .AI-transformation-step-details {color:white}.AI-transformation-to-name {color:blue;}body.theme-dark .AI-transformation-to-name {color:white}.AI-transformation-success {color:green}.AI-transformation-error {color:orange};&lt;/style&gt;&lt;b&gt;Overview&lt;/b&gt;</Name>
+    <Description>&lt;span class='AI-transformation-step-details'&gt;This report provides suggestions that you can use to transform technology-based test steps to AI-based testing steps.&lt;br&gt;The report suggests an AI object and operation for any step where a property-based test object can be replaced with an AI object.&lt;br&gt;&lt;br&gt;This report is located in C:\Users\demo\Documents\Functional Testing\AOS End to End\Res10.&lt;br&gt;&lt;br&gt;All screenshots are stored in C:\Users\demo\AppData\Local\Temp\1.&lt;br&gt;&lt;br&gt;We are constantly enhancing the AI model. To contribute to this endeavor, you can share this report to &lt;a href='mailto:FTAIDPP@microfocus.com'&gt;FTAIDPP@microfocus.com&lt;/a&gt;&lt;/span&gt;</Description>
+    <StartTime>2026-05-07 09:47:59</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 1&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("UserMenu").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("profile").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\53675520-2eaa-4b50-aa59-cc5c786fec5a.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 2&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("username").Set "agabriel"&lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("input", "Username").Type "agabriel" &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\fc9bca30-c834-48e2-ae07-1ffd3fe097ae.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 3&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("password").SetSecure "69288e0fdfa801f7ae252aef0a23236b92d9d81eccbb4809856e8cd614cc"&lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("input", "Password").TypeSecure "69288e0fdfa801f7ae252aef0a23236b92d9d81eccbb4809856e8cd614cc" &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\7d1bf4a0-6f99-4748-90d3-488f2ba985c6.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 4&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("sign_in_btn").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("button", "SIGN IN").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\fe0bc310-3dab-412a-a704-4a5176abb16a.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description />
+    <StartTime>2026-05-07 09:48:00</StartTime>
+    <Duration>18</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c9a8dc5565ac4f6093b697abfa0c3da4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Speaker</Name>
+    <Description />
+    <StartTime>2026-05-07 09:48:18</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c9a8dc5565ac4f6093b697abfa0c3da4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Tablet</Name>
+    <Description />
+    <StartTime>2026-05-07 09:48:19</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c9a8dc5565ac4f6093b697abfa0c3da4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Laptop</Name>
+    <Description />
+    <StartTime>2026-05-07 09:48:19</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c9a8dc5565ac4f6093b697abfa0c3da4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Mouse</Name>
+    <Description />
+    <StartTime>2026-05-07 09:48:19</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c9a8dc5565ac4f6093b697abfa0c3da4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="User">
+<ReportNode type="Step">
+<Data>
+    <Name>fetchImage?image_id=2200</Name>
+    <Description>The&amp;nbsp;filename,&amp;nbsp;directory&amp;nbsp;name,&amp;nbsp;or&amp;nbsp;volume&amp;nbsp;label&amp;nbsp;syntax&amp;nbsp;is&amp;nbsp;incorrect.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = Image&lt;br&gt;Index = 1&lt;br&gt;Html Tag = IMG&lt;br&gt;_xpath = //DIV[2]/UL[1]/LI[1]/IMG[1]&lt;br&gt;|Visible = -1&lt;br&gt;Name = Image&lt;br&gt;Image Type = Plain Image&lt;br&gt;Html Id = 15&lt;br&gt;file name = fetchImage?image_id=2200&lt;br&gt;DHTML Class = imgProduct&lt;br&gt;Alt = &lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:28</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[fetchImage?image_id=2200]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The&nbsp;filename,&nbsp;directory&nbsp;name,&nbsp;or&nbsp;volume&nbsp;label&nbsp;syntax&nbsp;is&nbsp;incorrect.<br/>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Plain Image]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[IMG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>414c7617228a4d09a83028b74db8a9b8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5b93bc54-9672-44fc-84d3-b5903d885e02.jpeg" highlight="280,838,223,165" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 5&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("HeadphonesCategoryTxt").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil.FindTextBlock("HEADPHONES").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:23</StartTime>
+    <Duration>9</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\84e8ecc8-83e0-461d-b914-9837963c4f89.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 7&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("save_to_cart").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("button", "ADD TO CART").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\88033b23-59d2-4695-bb8e-56f82bc7a181.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 8&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("ShoppingCart").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("shopping_cart").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\efdf9a71-0b35-4fb5-8a4f-681230b64010.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 9&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("REMOVE").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil.FindText("REMOVE").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:41</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\c1feb4e8-cc9e-4c96-b1a6-1de43a175c0a.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 10&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("CONTINUE SHOPPING").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("button", "CONTINUE SHOPPING").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\aef43a00-94ed-4a23-91aa-f27209cd0165.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Headphones</Name>
+    <Description />
+    <StartTime>2026-05-07 09:48:19</StartTime>
+    <Duration>26</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c9a8dc5565ac4f6093b697abfa0c3da4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 11&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("UserMenu").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil("profile").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\79894fab-dff4-44cc-a8ac-874758e36691.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>&lt;span class='AI-transformation-step-name'&gt;&lt;b&gt;AI 12&lt;/b&gt;&lt;/span&gt;</Name>
+    <Description>You can replace the object &amp; operation: &lt;br&gt;&lt;span class='AI-transformation-to-name'&gt;Browser("Advantage Shopping").Page("Advantage Shopping").Link("Sign out").Click &lt;/span&gt;&lt;br&gt;&lt;br&gt;with&lt;br&gt;&lt;br&gt;&lt;span class='AI-transformation-success'&gt;AIUtil.FindTextBlock("Sign out").Click  &lt;/span&gt;&lt;br&gt;&lt;br&gt;</Description>
+    <StartTime>2026-05-07 09:48:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\b06f4a65-e99f-4df5-9c8b-0fdab3035883.bmp</StepCustomImagePath>
+      <IconKey>ae0b2661f8874b7badbbcc4c52551a73</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Logout</Name>
+    <Description />
+    <StartTime>2026-05-07 09:48:45</StartTime>
+    <Duration>9</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c9a8dc5565ac4f6093b697abfa0c3da4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2026-05-07 09:47:59</StartTime>
+    <Duration>55</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>7e1a45dab73840f699167df17d18a9be</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Google Chrome</Name>
+        <Path>C:\Program Files\Google\Chrome\Application\chrome.exe</Path>
+        <Version>147.0</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>http://nimbusserver.aos.com:8000/#/</Info>
+          <Info />
+          <Info />
+          <Info />
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AOS End to End</Name>
+    <ToolName>OpenText Functional Testing</ToolName>
+    <ToolVersion>25.2</ToolVersion>
+    <ToolVersionStringLiteral>25.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2026-05-07 09:47:58</StartTime>
+    <Duration>56</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>b2326b3f37dd44bbb7bab7c8e92ad6ae</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>13th Gen Intel(R) Core(TM) i7-13800H</CpuInfo>
+      <NumberOfCores>10</NumberOfCores>
+      <TotalMemory>16384</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2019 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res10</ResultName>
+    <RunStartTime>2026-05-07 09:47:58</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>OpenText Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>25.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>25.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
